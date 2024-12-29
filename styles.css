@@ -1,0 +1,78 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+  color: rgba(255, 255, 255, 1.0);
+  font-family: "Nunito";
+
+}
+
+a{
+  color: rgba(255, 255, 255, 1.0);
+  text-decoration: none;
+
+}
+main {
+    align-items: center;
+    max-width: 640px;
+    color: rgba(255, 255, 255, 1.0);
+    margin: auto;
+  }
+
+.image-row{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
+
+}
+
+.name {
+  margin-bottom: 30px;
+  text-align: center;
+  border: 0px;
+  font-family: "Oswald";
+  font-size: 24px;
+  font-weight: 900
+}
+
+.social {
+display: flex;
+justify-content: space-around;
+color: azure;
+margin-bottom: 30px;
+
+}
+
+.link-item img{
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+.link-item {
+  display: flex;
+  align-items: center;
+  background-color: rgba(149, 123, 173, 0.5);
+  margin-bottom: 20px;
+  border-radius: 1000px;
+  padding: 5px;
+  padding-right: 53px;
+  box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1;
+
+}
